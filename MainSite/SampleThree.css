@@ -1,0 +1,300 @@
+﻿body 
+{
+    background: #7b735c;
+}
+
+a
+{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+a:link {color:maroon; text-decoration:none;}
+a:visited {text-decoration: none;color: maroon;}
+a:hover {text-decoration: none; color:white;font-weight:bold;}
+a:active {color: maroon;text-decoration: none}
+
+.contentArea
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 900px;
+    height: 600px;    
+}
+
+.menuHolder
+{
+    height: 30px;    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.contentHeader
+{
+    margin-left: -25px;
+
+    border-top: 8px solid #fa8c19;
+    border-bottom: 8px solid #fa8c19;
+    
+    margin-top: 14px;
+    width: 100%;
+    height: 300px;    
+    background-image:url('header.png');
+    padding-right: 33px;
+}
+
+hr { background: #fff url(../i/borderLine.gif) no-repeat center bottom;
+margin: 8px auto;
+height: 1px;
+border: 0 none;
+}
+
+
+.menuItem
+{
+    border-left: 5px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 5px solid grey;
+    top:-10px;
+    width: 233px;
+    height: 30px;    
+    float:left;
+    background-color: #E9AB17;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.menuItemActive
+{
+        border-left: 5px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 5px solid #E9AB17;
+    top:-10px;
+    width: 233px;
+    height: 30px;    
+    float:left;
+    background-color: #E9AB17;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.menuItem:hover
+{
+    border-bottom: 5px solid #E9AB17;
+}
+
+.tabItem
+{
+    border-left: 5px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 5px solid grey;
+    top:-10px;
+    width: 174px;
+    height: 30px;    
+    float:left;
+    background-color: #E9AB17;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.tabItem:hover
+{
+    border-bottom: 5px solid #E9AB17;
+    cursor: pointer;
+}
+
+.tabItemActive
+{
+    border-left: 5px solid grey;
+    border-right: 2px solid grey;
+    border-bottom: 5px solid #E9AB17;
+    top:-10px;
+    width: 151px;
+    height: 30px;    
+    float:left;
+    background-color: #E9AB17;
+    text-align: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.tabContent
+{
+    margin-top: 61px;
+    border-top: 8px solid #fa8c19;
+    border-bottom: 8px solid #fa8c19;
+    border-left: 8px solid #fa8c19;
+    border-right: 8px solid #fa8c19;
+    width: 833px;
+    height: 521px;    
+    padding-right: 33px;
+}
+
+.logo
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    color: Maroon;
+    font-size: 56px;
+    border: 0px solid blue;
+    width: 400px;
+}
+
+.addressAndPhone
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: Maroon;
+    font-size:Small;
+    border: 0px solid yellow;
+    width: 200px;
+    margin-top: -50px;
+}
+
+.storeImage
+{
+    border: 0px solid red;
+    width: 150px;
+    height: 80px;    
+    margin: 10px 780px;
+    background-image:url('main1.gif');
+    background-repeat: no-repeat;
+}
+
+.woman
+{
+    background-image:url('woman.png');
+     border: 0px solid yellow;
+    width: 286px;
+    height: 340px;   
+    margin-top: 12px;
+    float: left;
+}
+
+.man
+{
+    background-image:url('man.png');
+     border: 0px solid yellow;
+    width: 285px;
+    height: 285px;   
+    margin-top: 12px;
+    float: left;
+}
+
+.slogan
+{
+     border: 0px solid yellow;
+    width: 345px;
+    height: 285px;   
+    margin-top: -60px;
+    margin-left: 600px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+}
+
+
+.indexContent
+{
+     border: 0px solid red;
+    width: 590px;
+    height: 290px;   
+    margin-left: 355px;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    color: white
+}
+
+.primaryTableHead
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style:italic;
+    font-size:x-large;
+    text-align:center;
+}
+
+.secondaryTableHead
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:medium;
+    text-align:center;
+}
+
+.simpleTableHead
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:small;
+    text-align:Left;
+}
+
+.alfaparf
+{
+    border: 0px solid black; 
+    width: 866px; 
+    height: 121px; 
+    margin-top: 3px; 
+    background-image:url('bannerOne.png'); 
+    background-color: White;
+}
+
+.kidbanner
+{
+    border: 0px solid black; 
+    width: 866px; 
+    height: 120px; 
+    margin-top: 190px; 
+    background-image:url('kidbanner.jpg'); 
+    background-color: White;
+}
+
+.specialOffers
+{
+    border: 0px solid black; 
+    width: 866px; 
+    height: 120px; 
+    margin-top: 68px; 
+    background-image:url('packagebanner.jpg'); 
+    background-color: White;
+}
+
+.gentsBanner
+{
+    border: 0px solid black; 
+    width: 866px; 
+    height: 120px; 
+    margin-top: 110px; 
+    background-image:url('gentsBanner.jpg'); 
+    background-color: White;
+}
+
+.ladiesBanner
+{
+    border: 0px solid black; 
+    width: 866px; 
+    height: 120px; 
+    margin-top: 83px; 
+    background-image:url('ladiesbanner.jpg'); 
+    background-color: White;
+}

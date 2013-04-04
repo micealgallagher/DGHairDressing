@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>D & G Hairdressing</title>
+    <link href="SampleThree.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" src="jquery-1.4.2.js" type="text/javascript"></script>
+    <script>
+        function showHideTab(tabId, divId)
+        {
+            $("#divTabs").children().attr("class", "tabItem");
+            $("#" + tabId).attr("class", "tabItemActive");
+            $("#tabContent").children().css("display", "none");
+            $("#" + divId).css("display", "");
+
+//            if ("divOtherServices" == divId)
+//            {
+//                $("#tabContent").css("height", 520)
+//            }
+//            else
+//            {
+//                $("#tabContent").css("height", 499)
+//            }
+
+        }
+    </script>
+</head>
+<body>
+    <div class="menuHolder">
+        <div class="menuItem">
+            <a href="index.html">Welcome</a>
+        </div>
+        <div class="menuItemActive">
+            <a href="services.html">Services</a>
+        </div>
+        <div class="menuItem">
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="menuItem">
+            <a href="enquiries.html">Enquiries</a>
+        </div>
+    </div>
+    <div class="contentHeader">
+        <div class="logo">
+            D & G<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;Hairdressing
+        </div>
+    </div>
+    <div class="contentArea" style="border: 0px solid black;">
+        <hr />
+        <div class="indexContent" style="border: 0px solid black; width: 98%;">
+            <p align="center">
+                <b>Services</b>
+            </p>
+            <div id="divTabs">
+                <div class="tabItemActive" id="tabLadies" onclick="showHideTab('tabLadies','divLadies')">
+                    Ladies
+                </div>
+                <div class="tabItem" id="tabGents" onclick="showHideTab('tabGents','divGents')">
+                    Gents
+                </div>
+                <div class="tabItem" id="tabKids" onclick="showHideTab('tabKids','divKids')">
+                    Kids
+                </div>
+                <div class="tabItem" id="tabSpecialOffers" onclick="showHideTab('tabSpecialOffers','divSpecialOffers')">
+                    Special Offers
+                </div>
+                <div class="tabItem" id="tabOtherServices" onclick="showHideTab('tabOtherServices','divOtherServices')">
+                    Other Services
+                </div>
+            </div>
+            <div id="tabContent" class="tabContent">
+                <div id="divLadies" style="display: ">
+                    <table border="0" width="100%">
+                        <tr>
+                            <td colspan="2" class="primaryTableHead">
+                                <br />Ladies
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top" width="50%">
+                                <table border="0" align="right" width="70%" align="center">
+                                    <tr>
+                                        <td colspan="4" class="secondaryTableHead">
+                                            <br />
+                                            Hair Cuts and Styles
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Fringe Trim
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £5
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Medium hair Wash & Blow-dry
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £14
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Long hair Wash & Blow-dry
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            16
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Trim & blow-dry
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £18
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Restyle & Blow-dry
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £32
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            GHD Curls
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £20
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Up-Styles
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £20
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Colours
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £9
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td valign="top" width="50%">
+                                <table border="0" width="70%" align="center">
+                                    <tr>
+                                        <td colspan="4" class="secondaryTableHead">
+                                            <br />
+                                            Colours
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Short hair
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £30
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Medium Hair
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £35
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Long hair
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £40
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Foils half-head
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £38
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Foils full head
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £44
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="4" class="secondaryTableHead">
+                                            <br />
+                                            Chemical Straightening
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Regrowth/Short hair
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £30
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Medium hair
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £40
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="1" class="simpleTableHead">
+                                            Long hair
+                                        </td>
+                                        <td colspan="1" class="simpleTableHead">
+                                            £50
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="ladiesBanner">
+                    </div>
+                </div>
+                <div id="divGents" style="display: none">
+                    <table border="0" align="center">
+                        <tr>
+                            <td colspan="2" class="primaryTableHead">
+                                <br />Gents
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="secondaryTableHead">
+                                <br />
+                                Hair Cuts and Styles
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Buzz Cut
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £8
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Funky cut & Style
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                From £15
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Hair Cut
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £8
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Wash & Style cut
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £14
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="secondaryTableHead">
+                                <br />
+                                Colours
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Highlights
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £28
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Flashes
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £3 Per Pack
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Tint
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £22
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="gentsBanner">
+                    </div>
+                </div>
+                <div id="divKids" style="display: none">
+                    <table border="0" align="center">
+                        <tr>
+                            <td colspan="2" class="primaryTableHead">
+                                <br />Kids
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="secondaryTableHead">
+                                <br />
+                                Hair Cuts and Styles
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Cut, styling & blow-dry
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £25 - 28
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Special event hair styling
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                From £15
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="secondaryTableHead">
+                                <br />
+                                Decorative extras
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Decorative Accessories
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                £1.20 Each
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="kidbanner">
+                    </div>
+                </div>
+                <div id="divSpecialOffers" style="display: none">
+                    <table border="0" align="center">
+                        <tr>
+                            <td class="primaryTableHead">
+                                <br />Special Offers
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="secondaryTableHead">
+                                <br />
+                                Family Day
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="simpleTableHead" style="text-align: center;">
+                                Every Wednesday from 9-5 pm we give every client aged 60 and over 10% off!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="secondaryTableHead">
+                                <br />
+                                Loyalty card clients
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="simpleTableHead" style="text-align: center;">
+                                Please ask in our studio for our Loyalty Card every 5th or 10th visit you will get
+                                excellent discounts!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="secondaryTableHead">
+                                <br />
+                                Recommendation Special
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="simpleTableHead" style="text-align: center;">
+                                Dear Client! Bring other person to our Studio and both of you will get extra treat
+                                or gift pack for free!
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="secondaryTableHead">
+                                <br />
+                                Wedding/Events/Group Extras
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="simpleTableHead" style="text-align: center;">
+                                Special event?! D&G Hairdressing will help you to go through the long day of preparation
+                                as smooth as possible! Special offer *Groups minimum 5 people
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="specialOffers">
+                    </div>
+                </div>
+                <div id="divOtherServices" style="display: none">
+                    <table border="0" align="center">
+                        <tr>
+                            <td colspan="2" class="primaryTableHead">
+                                Other Services
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" style="width:200px" class="simpleTableHead">
+                                <br />
+                                Sun bed
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                £0.55 per minute
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                Alfaparf
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                £9.95 per product
+                            </td>
+                        </tr>
+                                                <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                Eyebrow Wax
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                £5
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="0" align="center">
+                        <tr>
+                            <td colspan="1" style="text-align:center" class="secondaryTableHead">
+                                <br />The Brazilian Blow Dry 
+                            </td>
+                            </tr>
+                            <tr>
+                            <td colspan="1" class="simpleTableHead" style="padding-left:30px">
+                                We are now in an excellent position to offer you the latest Keratin and Collagen Treatment - It Softens , Shines ,Smoothes , Eliminates Frizz and Instant Manageability .  
+This treatment transforms the hair  to its natural state unlike other products on the market like the Japanese Straightening System.  The treatment can be used on all hair types unlike relaxers and does not change the molecular structure.   This natural substance made up from Keratin and Collagen - the primary substance of the hair structure will restore the hair unbelievably.  
+The process takes between 1.5 to 3 hours depending on the length and thickness of the hair. 
+Management of the hair after the Brazilian Blow Dry is effortless and humidity or rain will no longer affect the hairstyle .  
+                            </td>
+                        </tr>
+                    </table>
+                    <table border="0" align="center">
+                        <tr>
+                            <td colspan="1" style="width:300px" class="simpleTableHead">
+                               Short to Medium hair
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                £150
+                            </td>
+                        </tr>
+                                                <tr>
+                            <td colspan="1" class="simpleTableHead">
+                                Long Hair
+                            </td>
+                            <td colspan="1" class="simpleTableHead">
+                                <br />
+                                £200
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="alfaparf">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="woman">
+        </div>-->
+    </div>
+</body>
+</html>
